@@ -194,7 +194,7 @@ export default function Home() {
                           </td>
                           <td className="py-2">
                             
-                              href={`https://basescan.org/tx/${t.hash}`}
+                             <a href={`https://basescan.org/tx/${t.hash}`}
                               target="_blank"
                               rel="noreferrer"
                               className="text-base-blue hover:underline"
